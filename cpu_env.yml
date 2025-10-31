@@ -1,0 +1,44 @@
+name: integOrthoFixCPU
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - scikit-image
+  - geopandas
+  - rasterio
+  - gdal
+  - fiona
+  - shapely
+  - pyproj
+  - pillow
+  - tifffile
+  - imageio
+  - joblib
+  - click
+  - requests
+  - tqdm
+  - psutil
+  - typing_extensions
+  - python-dateutil
+  - pytz
+  - setuptools
+  - xmltodict
+  - pip:
+      - pyqt5
+      - albumentations==1.4.20
+      - opencv-python==4.10.0.84
+      - rawpy==0.23.1
+      - slidingwindow==0.0.14
+      - lightning==2.4.0
+      - pytorch-lightning==2.4.0
+      - torch==2.4.1
+      - torchvision==0.19.1
+      - torchmetrics==1.4.3
+      - tqdm==4.66.5
