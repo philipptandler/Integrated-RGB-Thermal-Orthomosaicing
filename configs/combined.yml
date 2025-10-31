@@ -1,9 +1,9 @@
 CAMERA: H20T
 DIR:
-  H20T_DATA: 'auto'
-  PROJECT: 'folder_name'
-  RGB: ''
-  THERMAL: ''
+  H20T_DATA: /home/philipp/BurrelCreekData/ProjectFolderTest/data
+  PROJECT: /home/philipp/BurrelCreekData/ProjectFolderTest
+  RGB: /home/philipp/BurrelCreekData/ProjectFolderTest/data/mapping_data/RGB
+  THERMAL: /home/philipp/BurrelCreekData/ProjectFolderTest/data/mapping_data/Thermal
 HOMOGRAPHY:
   DOF: affine
   MANUAL_PARAMS:
