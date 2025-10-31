@@ -1,4 +1,4 @@
-name: integOrthoFixCPU
+name: integrated_rgb_thermal_ortho
 channels:
   - conda-forge
   - defaults
